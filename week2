@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>高大資管系烤報名</title>
+	</head>
+
+	<body bgcolor="Tomato">
+		<center>
+		<font size="8" face="標楷體">
+			高大資管系烤報名
+		</font> 
+	</br></br>
+		<img src="https://www.mirrormedia.com.tw/assets/images/20220910131553-3b9098e2c0cad05b48ef1f4b530f467d-tablet.jpg" height="300" width="500">
+		<form action="1.php" method="post">
+			請輸入您的系級:<input type="text" name="age"><br/><br/>
+			請輸入您的姓名:<input type="text" name="id"><br/><br/>
+			請問是否有意願參加系烤:
+			Yes<input type="checkbox" name="yes">
+			Yes<input type="checkbox" name="yes2"><br/>
+		</form>
+		<table border="3">
+			<tr></tr><th>星期一</th><th>星期二</th><th>星期三</th><th>星期四</th><th>星期五</th><th>星期六</th><th>星期日</th><tr></tr>
+		</table>
+		</center>
+	</body>
+</html>
