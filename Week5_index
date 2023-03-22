@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>高大資管系烤報名</title>
+	</head>
+
+	<body bgcolor="Tomato">
+		<center>
+		<font size="8" face="標楷體">
+			高大資管系
+		</font> 
+	</br></br>
+		<form action="check.php" method="post">
+			請輸入您的帳號:<input type="text" name="id"><br/>
+			請輸入您的密碼:<input type="password" name="pwd"><br/>
+			<input type="submit"><input type="reset">
+		</form>
+		</center>
+	</body>
+</html>
