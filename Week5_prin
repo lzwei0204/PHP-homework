@@ -1,0 +1,18 @@
+<?php
+session_start();
+if($_SESSION["login"]=="prin"){
+
+}
+else{
+    header("Location:error.php");
+}
+?>
+<html>
+<head> 
+<meta charset="utf-8">
+</head>
+<body>
+校長好
+<a href="logout.php">Logout</a>
+</body>
+</html>
