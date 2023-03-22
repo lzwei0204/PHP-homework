@@ -1,0 +1,29 @@
+<?php
+session_start();
+$prinID="111";
+$prinPWD="111";
+$teacherID="222";
+$teacherPWD="222";
+$studentID="333";
+$studentPWD="333";
+
+$id=$_POST["id"];
+$pwd=$_POST["pwd"];
+
+if(($prinID==$id)&&($prinPWD==$pwd)){
+    $_SESSION["login"]="prin";
+        header("Location:prin.php");
+} 
+elseif(($teacherID==$id)&&($teacherPWD==$pwd)){
+    $_SESSION["login"]="teacher";
+    header("Location:teacher.php");
+}
+elseif(($studentID==$id)&&($studentPWD==$pwd)){
+    $_SESSION["login"]="student";
+    header("Location:student.php");
+}
+else{
+    $_SESSION["login"]="no";
+    header("Location:fail.php");
+}
+?>
